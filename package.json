@@ -4,19 +4,30 @@
   "description": "A simple node connector for the Infusionsoft REST API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knowareco/infusionsoft-rest.git"
   },
   "keywords": [
-    "infusionsoft"
+    "infusionsoft",
+    "is",
+    "keap",
+    "knoware"
   ],
   "author": "KNOWARE.CO",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/knowareco/infusionsoft-rest/issues"
   },
-  "homepage": "https://github.com/knowareco/infusionsoft-rest#readme"
+  "homepage": "https://github.com/knowareco/infusionsoft-rest#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "request": "^2.88.0",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
 }
